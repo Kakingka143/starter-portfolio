@@ -1,38 +1,43 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kent Besas | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
   <header>
-    <h1>👋 Hello, I’m Kent Besas</h1>
-    <p>Welcome to my developer portfolio</p>
-    <button id="toggleMode">Toggle Dark Mode</button>
+    <nav>
+      <h1>&#128526; Hello, I’m <span class="highlight">Kent Besas</span>&#128526;</h1>
+      <button id="toggleMode">🌙</button>
+    </nav>
+    <p class="subtitle">Welcome to my developer portfolio</p>
   </header>
 
   <main>
-    <section>
+    <section id="about">
       <h2>About Me</h2>
-      <p>I am a student who loves web development and design. I'm passionate about creating user-friendly, accessible websites.</p>
+      <p>I am IT student in Bucas Grande Foundation College who loves <strong>web development</strong> and design. 
+         I'm passionate about creating <em>user-friendly</em>, 
+         accessible, and visually engaging websites.</p>
     </section>
 
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
-      <ul>
-        <li>
-          <strong>Portfolio Website</strong> – A personal site to showcase my skills using HTML, CSS, and JavaScript.
-        </li>
-        <li>
-          <strong>To-Do App</strong> – A simple task manager built with HTML, CSS, and localStorage.
-        </li>
-      </ul>
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A personal site to showcase my skills using HTML, CSS, and JavaScript.</p>
+      </div>
+      <div class="project-card">
+        <h3>To-Do App</h3>
+        <p>A simple task manager built with HTML, CSS, and localStorage.</p>
+      </div>
     </section>
 
-    <section>
+    <section id="contact">
       <h2>Contact</h2>
       <p>Email: <a href="mailto:Kentbesas143@gmail.com">Kentbesas143@gmail.com</a></p>
     </section>
@@ -45,3 +50,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
